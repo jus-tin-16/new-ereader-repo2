@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Stack} from 'react-bootstrap';
+import shortOvid from '../../Videos/Short O.mp4'
 
 const Short_o = ({setCurrentPage}) => {
     const test = ['1', '2'];
@@ -31,6 +32,9 @@ const Short_o = ({setCurrentPage}) => {
                     </Col>
                     <Col md="auto">
                         <Container style={{width: '650px',height: '300px', border: '1px solid black'}}>
+                            <video width="650" height="300" controls>
+                                <source src={shortOvid} type="video/mp4" />
+                            </video>
                         </Container>
                     </Col>
                 </Row>

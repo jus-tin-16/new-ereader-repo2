@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Stack} from 'react-bootstrap';
-import shortUvid from '../../Videos/Short Vowel (U).mp4'
+import shortUvid from '../../Videos/Short U.mp4'
 
 const Short_u = ({setCurrentPage}) => {
     const test = ['1', '2'];
