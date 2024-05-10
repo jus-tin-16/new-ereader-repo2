@@ -49,27 +49,29 @@ const App = () => {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-        <Container fluid style={isSidebarOpen ?  ({ padding: '50px', position: 'relative', left: '320px'}) : ({padding: '50px'})}>
-          <Row>
-              <Col>
-                {currentPage === 'DashBoard' && <DashBoard setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Assessment' && <Assessment setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Lessons' && <Lessons setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Lesson1' && <Lesson1 setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_a' && <Short_a setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_e' && <Short_e setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_i' && <Short_i setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_o' && <Short_o setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_u' && <Short_u setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_a_SIOS' && <Short_a_SIOS setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_a_SIOQ' && <Short_a_SIOQ setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_a_LMSIO' && <Short_a_LMSIO setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_a_AF' && <Short_a_AF setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'Short_a_SF' && <Short_a_SF setCurrentPage={setCurrentPage}/>}
-                {currentPage === 'OralAssessment' && <OralAssessment setCurrentPage={setCurrentPage}/>}
-            </Col>
-          </Row>
-        </Container>
+        <body style={{overflow: 'auto', boxSizing: 'border-box', display: '-ms-flexbox', position: 'relative', padding: '0', margin: '0', width: '100vw', bottom: '0px'}}>
+        <Container style={isSidebarOpen ?  ({ padding: '50px', position: 'relative', left: '150px'}) : ({padding: '50px'})}>
+            <Row>
+                <Col>
+                  {currentPage === 'DashBoard' && <DashBoard setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Assessment' && <Assessment setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Lessons' && <Lessons setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Lesson1' && <Lesson1 setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_a' && <Short_a setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_e' && <Short_e setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_i' && <Short_i setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_o' && <Short_o setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_u' && <Short_u setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_a_SIOS' && <Short_a_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_a_SIOQ' && <Short_a_SIOQ setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_a_LMSIO' && <Short_a_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_a_AF' && <Short_a_AF setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_a_SF' && <Short_a_SF setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'OralAssessment' && <OralAssessment setCurrentPage={setCurrentPage}/>}
+              </Col>
+            </Row>
+          </Container>
+        </body>
     </ThemeProvider>
   );
 };
