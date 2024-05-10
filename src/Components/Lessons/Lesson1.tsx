@@ -18,7 +18,7 @@ const Lesson1 = ({setCurrentPage}) => {
         minBreakpoint="xxs">
             <Container>
                 <Row>
-                    <h1 style={{ paddingTop: '20px',textAlign: 'left', fontSize: '92px' }}>Lesson 1: Learn the Letter Sounds</h1>
+                    <h1 style={{ paddingTop: '50px',textAlign: 'left', fontSize: '92px' }}>Lesson 1: Learn the Letter Sounds</h1>
                 </Row>
                 <Row>
                     <p className="subHead">Word Awareness, Syllable Blending, Syllable Counting, Rhyme.</p>

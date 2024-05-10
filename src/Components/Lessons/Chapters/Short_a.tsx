@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Stack} from 'react-bootstrap';
-import shortAvid from '../../Videos/Short A.mp4'
+import shortAvid from '../../Videos/Short Vowel (A).mp4'
 
 const Short_a = ({setCurrentPage}) => {
     const test = ['1', '2'];
@@ -17,7 +17,7 @@ const Short_a = ({setCurrentPage}) => {
                         Word Awareness, Syllable Blending, Syllable Counting, Rhyme.
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{paddingTop: '20px'}}>
                     <Col md="auto">
                         <Stack gap={35}>
                             <div className="d-grid gap-2">
@@ -31,11 +31,9 @@ const Short_a = ({setCurrentPage}) => {
                         </Stack>
                     </Col>
                     <Col md="auto">
-                        <Container style={{width: '650px',height: '300px', border: '1px solid black'}}>
-                            <video width="650" height="300" controls>
+                            <video width="750" height="400" controls>
                                 <source src={shortAvid} type="video/mp4" />
                             </video>
-                        </Container>
                     </Col>
                 </Row>
                 <Row>

@@ -50,7 +50,7 @@ const App = () => {
         </Container>
       </Navbar>
         <body style={{overflow: 'auto', boxSizing: 'border-box', display: '-ms-flexbox', position: 'relative', padding: '0', margin: '0', width: '100vw', bottom: '0px'}}>
-        <Container style={isSidebarOpen ?  ({ padding: '50px', position: 'relative', left: '150px'}) : ({padding: '50px'})}>
+        <Container style={isSidebarOpen ?  ({ padding: '20px', position: 'relative', left: '150px'}) : ({padding: '50px'})}>
             <Row>
                 <Col>
                   {currentPage === 'DashBoard' && <DashBoard setCurrentPage={setCurrentPage}/>}

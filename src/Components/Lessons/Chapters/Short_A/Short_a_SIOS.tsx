@@ -16,17 +16,17 @@ const Short_a_SIOS = ({setCurrentPage}) => {
                         Word Awareness, Syllable Blending, Syllable Counting, Rhyme.
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                     <Col md="auto">
-                        <Container style={{width: '1328px',height: '720px', justifyContent: 'center', border: '1px solid black'}}></Container>
+                        <Container style={{width: '985px',height: '500px', justifyContent: 'center', border: '1px solid black'}}></Container>
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{paddingTop: '20px'}}>
                     <Col>
                     <Button variant="secondary" onClick={() => setCurrentPage("Short_a")} size="lg"> Go Back </Button>
                     </Col>
-                    <Col>
-                    <Button variant="primary" style={{alignContent: 'right'}} size="lg"> Take Quiz </Button>
+                    <Col className='d-flex justify-content-end'>
+                        <Button variant="primary" size="lg"> Take Quiz </Button>
                     </Col>
                 </Row>
             </Container>
