@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
+import shortAvid from '../../../Videos/Short A.mp4'
+import audio from '../../../Audio/Oral1.m4a';
 
 const Short_a = ({setCurrentPage}) => {
     const test = ['1', '2'];
@@ -18,7 +20,7 @@ const Short_a = ({setCurrentPage}) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Container style={{width: '1670px',height: '705px', border: '1px solid black'}}> 
+                    <Container style={{width: '1670px',height: '600px', border: '1px solid black'}}> 
                         <Row>
                             <Col class="col-md-10"> 
                             <h2>Direction: Read it loud and record your voice using the 
@@ -26,13 +28,19 @@ const Short_a = ({setCurrentPage}) => {
                             </Col>
                         </Row>
                         <Row>
-                            <Col>
-                                <Container style={{width: '934px', height: '536px', border: '1px solid black'}}></Container>
+                            <Col md="auto">
+                                <video width="750" height="400" controls>
+                                    <source src={shortAvid} type="video/mp4" />
+                                </video>
                             </Col>
                             <Col>
+                                <audio src={audio} controls></audio>
                                 <Button variant="primary" style={{}} size="lg"> RECORD </Button>
                                 <Button variant="secondary" style={{}} size="lg"> RETAKE </Button>
                             </Col>
+                        </Row>
+                        <Row className='justify-content-end'>
+                            <Col md="auto"><Button variant="primary" style={{}} size="lg"> SUBMIT </Button></Col>
                         </Row>
                     </Container>
                 </Row>
