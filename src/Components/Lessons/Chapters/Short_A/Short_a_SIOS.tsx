@@ -19,8 +19,9 @@ const Short_a_SIOS = ({setCurrentPage}) => {
                 </Row>
                 <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                 <Col md="auto">
-                            <video width="750" height="400" controls>
+                            <video width="1180" height="540" controls>
                                 <source src={shortAvid} type="video/mp4" />
+                                <BigPlayButton position="center" />
                             </video>
                     </Col>
                 </Row>
