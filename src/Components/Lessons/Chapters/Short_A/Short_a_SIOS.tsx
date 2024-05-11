@@ -21,7 +21,6 @@ const Short_a_SIOS = ({setCurrentPage}) => {
                 <Col md="auto">
                             <video width="1180" height="540" controls>
                                 <source src={shortAvid} type="video/mp4" />
-                                <BigPlayButton position="center" />
                             </video>
                     </Col>
                 </Row>
@@ -30,7 +29,7 @@ const Short_a_SIOS = ({setCurrentPage}) => {
                     <Button variant="secondary" onClick={() => setCurrentPage("Short_a")} size="lg"> Go Back </Button>
                     </Col>
                     <Col className='d-flex justify-content-end'>
-                        <Button variant="primary" size="lg"> Take Quiz </Button>
+                        <Button variant="primary" size="lg" disabled> Take Quiz </Button>
                     </Col>
                 </Row>
             </Container>
