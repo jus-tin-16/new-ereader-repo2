@@ -5,8 +5,7 @@ import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import shortAvid from '../../../Videos/Short A.mp4'
-import audio from '../../../Audio/Oral1.m4a';
-
+import audio from '../../../Audio/Oral1.m4a'
 const Short_a = ({setCurrentPage}) => {
     const test = ['1', '2'];
     return (
@@ -33,6 +32,7 @@ const Short_a = ({setCurrentPage}) => {
                                     <source src={shortAvid} type="video/mp4" />
                                 </video>
                             </Col>
+
                             <Col>
                                 <audio src={audio} controls></audio>
                                 <Button variant="primary" style={{}} size="lg"> RECORD </Button>

@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
-import img1 from '../Images/Number1.png';
+import img1 from '../Images/Oral Language Assessment.png';
+import img2 from '../Images/Read and Learn.png'
 
 const DashBoard = ({setCurrentPage}) => {
   return (
@@ -29,7 +30,7 @@ const DashBoard = ({setCurrentPage}) => {
         </Col>
         <Col class="col-md-4">
         <Card border="success" style={{ width: '30rem' }}> 
-        <Card.Img variant="top" style={{borderBottom: 'gray 1px solid'}} src={img1}/> 
+        <Card.Img variant="top" style={{borderBottom: 'gray 1px solid'}} src={img2}/> 
         <Card.Body>
           <Card.Title> Read and Learn</Card.Title>
           <Card.Text>Lorem ipsum dolor sit amet, </Card.Text>
