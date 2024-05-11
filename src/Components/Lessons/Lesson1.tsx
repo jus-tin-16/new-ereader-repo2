@@ -86,7 +86,7 @@ const Lesson1 = ({setCurrentPage}) => {
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'a'</CardSubtitle>
                                 <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
                                 <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
-                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                                    onClick={() =>  setCurrentPage("Long_a")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
                             </Card.Body>
                         </Card>
                     </Row>

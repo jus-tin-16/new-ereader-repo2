@@ -21,6 +21,7 @@ import Short_e from './Components/Lessons/Chapters/Short_E/Short_e';
 import Short_i from './Components/Lessons/Chapters/Short_I/Short_i';
 import Short_o from './Components/Lessons/Chapters/Short_O/Short_o';
 import Short_u from './Components/Lessons/Chapters/Short_U/Short_u';
+import Long_a from './Components/Lessons/Chapters/Long_A/Long_a';
 
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -67,6 +68,7 @@ const App = () => {
                   {currentPage === 'Short_a_LMSIO' && <Short_a_LMSIO setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_AF' && <Short_a_AF setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_SF' && <Short_a_SF setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_a' && <Long_a setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'OralAssessment' && <OralAssessment setCurrentPage={setCurrentPage}/>}
               </Col>
             </Row>
