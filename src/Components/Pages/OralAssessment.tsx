@@ -71,15 +71,15 @@ const OralAssessment = ({setCurrentPage}) => {
     minBreakpoint="xxs"
   >
 
-  <Container>
+  <Container fluid="sm">
           {indexCheck <= questions.length ? (
-          <Row>
+          <Row style={{padding: '40px'}}>
             <Row>
             <Col class="col-md-10"> <h2 style={{width: '1000px'}}>Direction: Describe the picture using the words in the box.
-               <Image src={RecAudio} onClick={() => start(6)} rounded style={{height: '60px', width:'70px'}}></Image></h2> </  Col>
+               <Image src={RecAudio} onClick={() => start(6)} rounded style={{height: '50px', width:'60px'}}></Image></h2> </  Col>
             </Row>
             <Row>
-              <Col class="col-md-10"><h3>{indexCheck}. {questions[indexCheck-1]}<Image src={RecAudio} onClick={() => start(indexCheck)} rounded style={{height: '60px', width:'70px'}}/></h3></Col>
+              <Col class="col-md-10"><h3>{indexCheck}. {questions[indexCheck-1]}<Image src={RecAudio} onClick={() => start(indexCheck)} rounded style={{height: '50px', width:'60px'}}/></h3></Col>
             </Row>
             <Row>
               <Col><Image src={images[indexCheck-1]} style={{width: '100%'}}></Image></Col>
