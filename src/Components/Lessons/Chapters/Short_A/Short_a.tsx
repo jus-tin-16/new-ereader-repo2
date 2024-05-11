@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Stack} from 'react-bootstrap';
-import shortAvid from '../../Videos/Short Vowel (A).mp4'
+import Vid from '../../../Videos/ShortVowels.mp4'
 
 const Short_a = ({setCurrentPage}) => {
     const test = ['1', '2'];
@@ -32,7 +32,7 @@ const Short_a = ({setCurrentPage}) => {
                     </Col>
                     <Col md="auto">
                             <video width="750" height="400" controls>
-                                <source src={shortAvid} type="video/mp4" />
+                                <source src={Vid} type="video/mp4" />
                             </video>
                     </Col>
                 </Row>

@@ -4,20 +4,20 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap';
 import {Stack} from 'react-bootstrap';
-import shortOvid from '../../Videos/Short O.mp4'
+import Vid from '../../../Videos/ShortVowels.mp4'
 
-const Short_o = ({setCurrentPage}) => {
+const Short_i = ({setCurrentPage}) => {
     const test = ['1', '2'];
     return (
         <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']} minBreakpoint="xxs">
             <Container fluid="sm" style={{padding: '20px'}}>
                 <Row>
                     <Col>
-                        <h1>Short 'o'</h1>
+                        <h1>Short 'i'</h1>
                         Word Awareness, Syllable Blending, Syllable Counting, Rhyme.
                     </Col>
                 </Row>
-                <Row>
+                <Row style={{paddingTop: '20px'}}>
                     <Col md="auto">
                         <Stack gap={35}>
                             <div className="d-grid gap-2">
@@ -31,11 +31,9 @@ const Short_o = ({setCurrentPage}) => {
                         </Stack>
                     </Col>
                     <Col md="auto">
-                        <Container style={{width: '650px',height: '300px', border: '1px solid black'}}>
-                            <video width="650" height="300" controls>
-                                <source src={shortOvid} type="video/mp4" />
+                            <video width="750" height="400" controls>
+                                <source src={Vid} type="video/mp4" />
                             </video>
-                        </Container>
                     </Col>
                 </Row>
                 <Row>
@@ -48,4 +46,4 @@ const Short_o = ({setCurrentPage}) => {
     );
 };
 
-export default Short_o;
+export default Short_i;
