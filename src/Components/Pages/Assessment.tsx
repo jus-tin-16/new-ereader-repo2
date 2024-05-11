@@ -23,7 +23,7 @@ const DashBoard = ({setCurrentPage}) => {
         <Card.Img variant="top"  style={{borderBottom: 'gray 1px solid'}} src={img1}/> 
         <Card.Body>
           <Card.Title>Oral Language Assessment</Card.Title>
-          <Card.Text>Lorem ipsum dolor sit amet, </Card.Text>
+          <Card.Text>Describe the picture using the words in the box </Card.Text>
           <Button variant="success"  onClick={() => setCurrentPage("OralAssessment")} size='lg'style={{position: "relative", left: "350px", fontWeight: 'bold'}}>START</Button>
         </Card.Body>
         </Card>

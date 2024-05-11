@@ -90,11 +90,11 @@ const OralAssessment = ({setCurrentPage}) => {
             </Row>
           </Row>
           ):(
-          <Row style={{position: 'relative', right: "100px", width: '1500px'}}>
-          <Col>
-              <h2 style={{textAlign: "center", fontSize: "100px"}}> CONGRATULATIONS!</h2>
-                <h1 style={{textAlign: "center", padding: "50px"}}> {score} </h1>
-                <h2 style={{textAlign: "center", paddingBottom: "120px"}}> You have Conquered the Oral Language Assessment!</h2>
+          <Row style={{ padding: '40px'}}>
+          <Col class="col-md-10">
+              <h2 style={{textAlign: "center", fontSize: "100px", width: '1000px'}}> CONGRATULATIONS!</h2>
+                <h1 style={{textAlign: "center", padding: "50px", width: '1000px'}}> {score} </h1>
+                <h2 style={{textAlign: "center", paddingBottom: "120px", width: '1000px'}}> You have Conquered the Oral Language Assessment!</h2>
                 </Col>
         <Row>
         <Button variant="success" style={{fontWeight: 'bold', borderRadius: '30px'}} onClick={() => {setCurrentPage("DashBoard")}}>FINISH</Button>
