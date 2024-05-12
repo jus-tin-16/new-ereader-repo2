@@ -71,15 +71,15 @@ const OralAssessment = ({setCurrentPage}) => {
     minBreakpoint="xxs"
   >
 
-  <Container>
+  <Container fluid="sm">
           {indexCheck <= questions.length ? (
-          <Row>
+          <Row style={{padding: '40px'}}>
             <Row>
             <Col class="col-md-10"> <h2 style={{width: '1000px'}}>Direction: Describe the picture using the words in the box.
-               <Image src={RecAudio} onClick={() => start(6)} rounded style={{height: '60px', width:'70px'}}></Image></h2> </  Col>
+               <Image src={RecAudio} onClick={() => start(6)} rounded style={{height: '50px', width:'60px'}}></Image></h2> </  Col>
             </Row>
             <Row>
-              <Col class="col-md-10"><h3>{indexCheck}. {questions[indexCheck-1]}<Image src={RecAudio} onClick={() => start(indexCheck)} rounded style={{height: '60px', width:'70px'}}/></h3></Col>
+              <Col class="col-md-10"><h3>{indexCheck}. {questions[indexCheck-1]}<Image src={RecAudio} onClick={() => start(indexCheck)} rounded style={{height: '50px', width:'60px'}}/></h3></Col>
             </Row>
             <Row>
               <Col><Image src={images[indexCheck-1]} style={{width: '100%'}}></Image></Col>
@@ -90,11 +90,11 @@ const OralAssessment = ({setCurrentPage}) => {
             </Row>
           </Row>
           ):(
-          <Row style={{position: 'relative', right: "100px", width: '1500px'}}>
-          <Col>
-              <h2 style={{textAlign: "center", fontSize: "100px"}}> CONGRATULATIONS!</h2>
-                <h1 style={{textAlign: "center", padding: "50px"}}> {score} </h1>
-                <h2 style={{textAlign: "center", paddingBottom: "120px"}}> You have Conquered the Oral Language Assessment!</h2>
+          <Row style={{ padding: '40px'}}>
+          <Col class="col-md-10">
+              <h2 style={{textAlign: "center", fontSize: "100px", width: '1000px'}}> CONGRATULATIONS!</h2>
+                <h1 style={{textAlign: "center", padding: "50px", width: '1000px'}}> {score} </h1>
+                <h2 style={{textAlign: "center", paddingBottom: "120px", width: '1000px'}}> You have Conquered the Oral Language Assessment!</h2>
                 </Col>
         <Row>
         <Button variant="success" style={{fontWeight: 'bold', borderRadius: '30px'}} onClick={() => {setCurrentPage("DashBoard")}}>FINISH</Button>

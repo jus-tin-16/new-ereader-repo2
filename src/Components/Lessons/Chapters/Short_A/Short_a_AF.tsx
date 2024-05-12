@@ -12,7 +12,7 @@ const Short_a_AF = ({setCurrentPage}) => {
             <Container fluid="sm" style={{padding: '20px'}}>
                 <Row>
                     <Col>
-                        <h1>Short 'a'</h1>
+                        <h1 style={{fontWeight: 'bolder'}}>Short 'a'</h1>
                         Word Awareness, Syllable Blending, Syllable Counting, Rhyme.
                     </Col>
                 </Row>

@@ -18,7 +18,7 @@ const Lesson1 = ({setCurrentPage}) => {
         minBreakpoint="xxs">
             <Container>
                 <Row>
-                    <h1 style={{ paddingTop: '20px',textAlign: 'left', fontSize: '92px' }}>Lesson 1: Learn the Letter Sounds</h1>
+                    <h1 style={{ paddingTop: '50px',textAlign: 'left', fontSize: '92px' }}>Lesson 1: Learn the Letter Sounds</h1>
                 </Row>
                 <Row>
                     <p className="subHead">Word Awareness, Syllable Blending, Syllable Counting, Rhyme.</p>
@@ -73,6 +73,61 @@ const Lesson1 = ({setCurrentPage}) => {
                             <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Short 'u'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'a'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Long_a")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'e'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'i'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'o'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'u'</CardSubtitle>
                                 <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
                                 <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
                                     onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
