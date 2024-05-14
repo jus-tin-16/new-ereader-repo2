@@ -44,7 +44,7 @@ const Short_a = ({setCurrentPage}) => {
                         </Row>
                     </Container>
                 </Row>
-                <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                <Row style={{paddingTop: '50px', paddingBottom: '20px'}}>
                     <Col>
                     <Button variant="secondary" style={{}} onClick={() => setCurrentPage("Short_a")} size="lg"> Go Back </Button>
                     </Col>

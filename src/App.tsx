@@ -85,6 +85,7 @@ const App = () => {
                   {currentPage === 'Short_u_LMSIO' && <Short_u_LMSIO setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_AF' && <Short_a_AF setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_SF' && <Short_a_SF setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_a' && <Long_a setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'OralAssessment' && <OralAssessment setCurrentPage={setCurrentPage}/>}
               </Col>
             </Row>

@@ -82,6 +82,61 @@ const Lesson1 = ({setCurrentPage}) => {
                     </Row>
                     <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                         <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'a'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Long_a")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'e'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'i'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'o'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
+                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Body>
+                                <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'u'</CardSubtitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in bug</CardTitle>
+                                <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
+                                    onClick={() =>  setCurrentPage("Short_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
+                            </Card.Body>
+                        </Card>
+                    </Row>
+                    <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
+                        <Card border= "success" style={{ width: '1427px', height: '366px'}}>
                             <Card.Img src={LongA} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'A'</CardSubtitle>
