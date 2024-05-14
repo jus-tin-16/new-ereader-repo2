@@ -18,7 +18,15 @@ import Short_a_LMSIO from './Components/Lessons/Chapters/Short_A/Short_a_LMSIO';
 import Short_a_AF from './Components/Lessons/Chapters/Short_A/Short_a_AF';
 import Short_a_SF from './Components/Lessons/Chapters/Short_A/Short_a_SF';
 import Short_e from './Components/Lessons/Chapters/Short_E/Short_e';
+import Short_e_SIOS from './Components/Lessons/Chapters/Short_E/Short_e_SIOS';
+import Short_e_LMSIO from './Components/Lessons/Chapters/Short_E/Short_e_LMSIO';
 import Short_i from './Components/Lessons/Chapters/Short_I/Short_i';
+import Short_i_LMSIO from './Components/Lessons/Chapters/Short_I/Short_i_LMSIO';
+import Short_o_LMSIO from './Components/Lessons/Chapters/Short_O/Short_o_LMSIO';
+import Short_u_LMSIO from './Components/Lessons/Chapters/Short_U/Short_u_LMSIO';
+import Short_i_SIOS from './Components/Lessons/Chapters/Short_I/Short_i_SIOS';
+import Short_o_SIOS from './Components/Lessons/Chapters/Short_I/Short_i_SIOS';
+import Short_u_SIOS from './Components/Lessons/Chapters/Short_U/Short_u_SIOS';
 import Short_o from './Components/Lessons/Chapters/Short_O/Short_o';
 import Short_u from './Components/Lessons/Chapters/Short_U/Short_u';
 import Long_a from './Components/Lessons/Chapters/Long_A/Long_a';
@@ -63,9 +71,18 @@ const App = () => {
                   {currentPage === 'Short_i' && <Short_i setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_o' && <Short_o setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_u' && <Short_u setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_a' && <Long_a setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_SIOS' && <Short_a_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_e_SIOS' && <Short_e_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_i_SIOS' && <Short_i_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_o_SIOS' && <Short_o_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_u_SIOS' && <Short_u_SIOS setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_SIOQ' && <Short_a_SIOQ setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_LMSIO' && <Short_a_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_e_LMSIO' && <Short_e_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_i_LMSIO' && <Short_i_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_o_LMSIO' && <Short_o_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Short_u_LMSIO' && <Short_u_LMSIO setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_AF' && <Short_a_AF setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_SF' && <Short_a_SF setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Long_a' && <Long_a setCurrentPage={setCurrentPage}/>}

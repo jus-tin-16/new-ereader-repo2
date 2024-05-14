@@ -21,9 +21,9 @@ const Short_i = ({setCurrentPage}) => {
                     <Col md="auto">
                         <Stack gap={35}>
                             <div className="d-grid gap-2">
-                                <Button variant="secondary" onClick={() => setCurrentPage("Short_a_SIOS")} size="lg">Sound it Out Slowly</Button>
+                                <Button variant="secondary" onClick={() => setCurrentPage("Short_i_SIOS")} size="lg">Sound it Out Slowly</Button>
                                 <Button variant="secondary" onClick={() => setCurrentPage("Short_a_SIOQ")} size="lg" disabled>Sound it Out Quickly</Button>
-                                <Button variant="secondary" onClick={() => setCurrentPage("Short_a_LMSIO")} size="lg">Let Me Sound it Out</Button>
+                                <Button variant="secondary" onClick={() => setCurrentPage("Short_i_LMSIO")} size="lg">Let Me Sound it Out</Button>
                                 <Button variant="secondary" onClick={() => setCurrentPage("Short_a_AF")} size="lg" disabled>Audio Flashcards</Button>
                                 <Button variant="secondary" onClick={() => setCurrentPage("Short_a_SF")} size="lg" disabled>Silent Flashcards</Button> 
                                 <Button variant="secondary" size="lg" disabled>Take the Quiz</Button>
