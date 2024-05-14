@@ -31,7 +31,7 @@ const Short_u = ({setCurrentPage}) => {
                         </Stack>
                     </Col>
                     <Col md="auto">
-                            <video width="750" height="400" controls>
+                            <video width="850" height="400" controls>
                                 <source src={Vid} type="video/mp4" />
                             </video>
                     </Col>

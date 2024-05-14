@@ -4,8 +4,12 @@ import Button from 'react-bootstrap/Button';
 import {Row} from 'react-bootstrap';
 import {Col} from 'react-bootstrap'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import shortAvid from '../../../Videos/Short A.mp4'
-import audio from '../../../Audio/Oral1.m4a'
+import shortAvid from '../../../Videos/Short A.mp4';
+import audio from '../../../Audio/Oral1.m4a';
+import RecAudio from '../../../Images/RecordedAudio.png';
+import {Image} from "react-bootstrap";
+import {Stack} from 'react-bootstrap';
+
 const Short_a = ({setCurrentPage}) => {
     const test = ['1', '2'];
     return (
@@ -19,27 +23,34 @@ const Short_a = ({setCurrentPage}) => {
                     </Col>
                 </Row>
                 <Row>
-                    <Container style={{width: '1670px',height: '600px', border: '1px solid black'}}> 
+                    <Container fluid style={{border: '1px solid black'}}> 
                         <Row>
                             <Col class="col-md-10"> 
                             <h2>Direction: Read it loud and record your voice using the 
-                            flashcards that shows on your screen.</h2> 
+                            flashcards that shows on your screen. <Image src={RecAudio} onClick={() => start(6)} rounded style={{height: '50px', width:'60px'}}></Image></h2> 
                             </Col>
                         </Row>
                         <Row>
                             <Col md="auto">
-                                <video width="750" height="400" controls>
+                                <video width="1180" height="500" controls>
                                     <source src={shortAvid} type="video/mp4" />
                                 </video>
                             </Col>
-
-                            <Col>
+                        </Row>
+                        <Row className='justify-content-center' style={{padding: '20px'}}>
+                            <Col md="auto">
                                 <audio src={audio} controls></audio>
+                            </Col>
+                        </Row>
+                        <Row className='justify-content-center' style={{padding: '20px'}}>
+                            <Col md="auto">
                                 <Button variant="primary" style={{}} size="lg"> RECORD </Button>
+                            </Col>
+                            <Col md="auto">
                                 <Button variant="secondary" style={{}} size="lg"> RETAKE </Button>
                             </Col>
                         </Row>
-                        <Row className='justify-content-end'>
+                        <Row className='justify-content-end' style={{padding: '20px'}}>
                             <Col md="auto"><Button variant="primary" style={{}} size="lg"> SUBMIT </Button></Col>
                         </Row>
                     </Container>
