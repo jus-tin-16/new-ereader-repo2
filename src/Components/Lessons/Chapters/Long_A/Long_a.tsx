@@ -13,7 +13,7 @@ const Long_a = ({setCurrentPage}) => {
             <Container fluid="sm" style={{padding: '20px'}}>
                 <Row>
                     <Col>
-                        <h1>Short 'a'</h1>
+                        <h1>Long 'a'</h1>
                         Word Awareness, Syllable Blending, Syllable Counting, Rhyme.
                     </Col>
                 </Row>
