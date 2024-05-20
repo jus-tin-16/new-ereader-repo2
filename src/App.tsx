@@ -29,6 +29,21 @@ import Short_o_SIOS from './Components/Lessons/Chapters/Short_I/Short_i_SIOS';
 import Short_u_SIOS from './Components/Lessons/Chapters/Short_U/Short_u_SIOS';
 import Short_o from './Components/Lessons/Chapters/Short_O/Short_o';
 import Short_u from './Components/Lessons/Chapters/Short_U/Short_u';
+import Long_a from './Components/Lessons/Chapters/Long_A/Long_a';
+import Long_a_LMSIO from './Components/Lessons/Chapters/Long_A/Long_a_LMSIO';
+import Long_a_SIOS from './Components/Lessons/Chapters/Long_A/Long_a_SIOS';
+import Long_e from './Components/Lessons/Chapters/Long_E/Long_e';
+import Long_e_LMSIO from './Components/Lessons/Chapters/Long_E/Long_e_LMSIO';
+import Long_e_SIOS from './Components/Lessons/Chapters/Long_E/Long_e_SIOS';
+import Long_i from './Components/Lessons/Chapters/Long_I/Long_i';
+import Long_i_LMSIO from './Components/Lessons/Chapters/Long_I/Long_i_LMSIO';
+import Long_i_SIOS from './Components/Lessons/Chapters/Long_I/Long_i_SIOS';
+import Long_o from './Components/Lessons/Chapters/Long_O/Long_o';
+import Long_o_LMSIO from './Components/Lessons/Chapters/Long_O/Long_o_LMSIO';
+import Long_o_SIOS from './Components/Lessons/Chapters/Long_O/Long_o_SIOS';
+import Long_u from './Components/Lessons/Chapters/Long_U/Long_u';
+import Long_u_LMSIO from './Components/Lessons/Chapters/Long_U/Long_u_LMSIO';
+import Long_u_SIOS from './Components/Lessons/Chapters/Long_U/Long_u_SIOS';
 
 const App = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -83,6 +98,21 @@ const App = () => {
                   {currentPage === 'Short_u_LMSIO' && <Short_u_LMSIO setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_AF' && <Short_a_AF setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'Short_a_SF' && <Short_a_SF setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_a' && <Long_a setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_a_LMSIO' && <Long_a_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_a_SIOS' && <Long_a_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_e' && <Long_e setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_e_LMSIO' && <Long_e_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_e_SIOS' && <Long_e_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_i' && <Long_i setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_i_LMSIO' && <Long_i_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_i_SIOS' && <Long_i_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_o' && <Long_o setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_o_LMSIO' && <Long_o_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_o_SIOS' && <Long_o_SIOS setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_u' && <Long_u setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_u_LMSIO' && <Long_u_LMSIO setCurrentPage={setCurrentPage}/>}
+                  {currentPage === 'Long_u_SIOS' && <Long_u_SIOS setCurrentPage={setCurrentPage}/>}
                   {currentPage === 'OralAssessment' && <OralAssessment setCurrentPage={setCurrentPage}/>}
               </Col>
             </Row>

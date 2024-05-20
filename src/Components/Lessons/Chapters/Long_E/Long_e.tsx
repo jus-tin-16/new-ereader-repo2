@@ -6,14 +6,14 @@ import {Col} from 'react-bootstrap';
 import {Stack} from 'react-bootstrap';
 import Vid from '../../../Videos/Long Vowels.mp4'
 
-const Long_a = ({setCurrentPage}) => {
+const Long_e = ({setCurrentPage}) => {
     const test = ['1', '2'];
     return (
         <ThemeProvider breakpoints={['xxxl', 'xxl', 'xl', 'lg', 'md', 'sm', 'xs', 'xxs']} minBreakpoint="xxs">
             <Container fluid="sm" style={{padding: '20px'}}>
                 <Row>
                     <Col>
-                        <h1>Long 'a'</h1>
+                        <h1>Long 'e'</h1>
                         Word Awareness, Syllable Blending, Syllable Counting, Rhyme.
                     </Col>
                 </Row>
@@ -21,9 +21,9 @@ const Long_a = ({setCurrentPage}) => {
                     <Col md="auto">
                         <Stack gap={35}>
                             <div className="d-grid gap-2">
-                                <Button variant="secondary" onClick={() => setCurrentPage("Long_a_SIOS")} size="lg">Sound it Out Slowly</Button>
+                                <Button variant="secondary" onClick={() => setCurrentPage("Long_e_SIOS")} size="lg">Sound it Out Slowly</Button>
                                 <Button variant="secondary" onClick={() => setCurrentPage("")} size="lg" disabled>Sound it Out Quickly</Button>
-                                <Button variant="secondary" onClick={() => setCurrentPage("Long_a_LMSIO")} size="lg">Let Me Sound it Out</Button>
+                                <Button variant="secondary" onClick={() => setCurrentPage("Long_e_LMSIO")} size="lg">Let Me Sound it Out</Button>
                                 <Button variant="secondary" onClick={() => setCurrentPage("")} size="lg" disabled>Audio Flashcards</Button>
                                 <Button variant="secondary" onClick={() => setCurrentPage("")} size="lg" disabled>Silent Flashcards</Button> 
                                 <Button variant="secondary" size="lg" disabled>Take the Quiz</Button>
@@ -46,4 +46,4 @@ const Long_a = ({setCurrentPage}) => {
     );
 };
 
-export default Long_a;
+export default Long_e;
