@@ -3,13 +3,16 @@ import { ThemeProvider } from 'react-bootstrap';
 import { Container } from 'react-bootstrap';
 import { Card } from 'react-bootstrap';
 import Button from 'react-bootstrap/Button';
-import img1 from '../Images/Number1.png';
 import short_a from '../Images/short_a.png';
 import short_e from '../Images/short_e.png';
 import short_i from '../Images/short_i.png';
 import short_o from '../Images/short_o.png';
 import short_u from '../Images/short_u.png';
 import LongA from "../Images/long_a.png"
+import LongE from "../Images/long_e.png"
+import LongI from "../Images/long_i.png"
+import LongO from "../Images/long_o.png"
+import LongU from "../Images/long_u.png"
 import CIcon from '@coreui/icons-react';
 import { cilArrowThickRight } from '@coreui/icons';
 
@@ -82,7 +85,7 @@ const Lesson1 = ({setCurrentPage}) => {
                     </Row>
                     <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                         <Card border= "success" style={{ width: '1427px', height: '366px'}}>
-                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Img src={LongA} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'a'</CardSubtitle>
                                 <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>a as in cake</CardTitle>
@@ -93,7 +96,7 @@ const Lesson1 = ({setCurrentPage}) => {
                     </Row>
                     <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                         <Card border= "success" style={{ width: '1427px', height: '366px'}}>
-                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Img src={LongE} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'e'</CardSubtitle>
                                 <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>e as in leaf</CardTitle>
@@ -104,10 +107,10 @@ const Lesson1 = ({setCurrentPage}) => {
                     </Row>
                     <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                         <Card border= "success" style={{ width: '1427px', height: '366px'}}>
-                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Img src={LongI} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'i'</CardSubtitle>
-                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>i as in ice cream</CardTitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>i as in light</CardTitle>
                                 <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
                                     onClick={() =>  setCurrentPage("Long_i")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
                             </Card.Body>
@@ -115,10 +118,10 @@ const Lesson1 = ({setCurrentPage}) => {
                     </Row>
                     <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                         <Card border= "success" style={{ width: '1427px', height: '366px'}}>
-                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Img src={LongO} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'o'</CardSubtitle>
-                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>o as in ocean</CardTitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>o as in boat</CardTitle>
                                 <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
                                     onClick={() =>  setCurrentPage("Long_o")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
                             </Card.Body>
@@ -126,10 +129,10 @@ const Lesson1 = ({setCurrentPage}) => {
                     </Row>
                     <Row style={{paddingTop: '20px', paddingBottom: '20px'}}>
                         <Card border= "success" style={{ width: '1427px', height: '366px'}}>
-                            <Card.Img src={short_u} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
+                            <Card.Img src={LongU} style={{ position: 'absolute', width: '433px', height: '332px', left: '18px', top: '18px'}}/>
                             <Card.Body>
                                 <CardSubtitle style={{ position: 'absolute', left: '485px', top: '30px', fontSize: '46px'}}>Long 'u'</CardSubtitle>
-                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in unicorn</CardTitle>
+                                <CardTitle style={{ position: 'absolute', left: '485px', top: '82px', fontSize: '86px', fontWeight: 'bolder'}}>u as in cube</CardTitle>
                                 <Button variant="primary" style={{ position: 'absolute', width: '182px', height: '116px', right: '29px', bottom: '24px', backgroundColor: '#FFD700', border: 'none'}}
                                     onClick={() =>  setCurrentPage("Long_u")}><CIcon icon={cilArrowThickRight} style={{width: '160px', height: '90px'}}/></Button>
                             </Card.Body>
